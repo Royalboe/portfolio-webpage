@@ -8,21 +8,16 @@
   </head>
   <body>
     <header>
-      <nav>
-        <div class="website-navigation">
-        <ul>
-          <li><a href="./register.html">Sign Up</a</li>
-          <li><a href="./index.html">About Me</a></li>
-          <li><a href="./login_page.html">Login</a></li>
-        </ul>
-        </div>
-      </nav>
+      <section class="web-navigation">
+        <div class="website-navigation"><a href="./index">About Me</a></div>
+        <div class="website-navigation"><a href="./register.html">Sign Up</a></div>
+        <div class="website-navigation"><a href="./login_page.html">Login</a></div>
+        <div class="website-navigation"><a href="./contact.html">Contact Me</a></div>
+      </section>
     </header>
     <section class="main">
       <div>
-        <form name="calculator">
-          <input type="text" name="calc_display">
-        </form>
+        <div id="calculator_screen"></div>
         <table>
           <thead>
             <tr></tr>
@@ -55,15 +50,67 @@
           </tbody>
         </table>
     <footer>
-      <nav>
-        <div class="website-navigation">
-        <ul>
-          <li><a href="./register.html">Sign Up</a</li>
-          <li><a href="./index.html">About Me</a></li>
-          <li><a href="./login_page.html">Login</a></li>
-        </ul>
+      <div class="first-line line">
+        <div class="btn double">
+            <p id="clear">C</p>
         </div>
-      </nav>
+        <div class="btn">
+            <p id="backspace"><-</p>
+        </div>
+        <div class="btn">
+            <p class="operator">/</p>
+        </div>
+    </div>
+    <div class="second-line line">
+        <div class="btn">
+            <p>7</p>
+        </div>
+        <div class="btn">
+            <p>8</p>
+        </div>
+        <div class="btn">
+            <p>9</p>
+        </div>
+        <div class="btn">
+            <p class="operator">X</p>
+        </div>
+    </div>
+    <div class="third-line line">
+        <div class="btn">
+            <p>4</p>
+        </div>
+        <div class="btn">
+            <p>5</p>
+        </div>
+        <div class="btn">
+            <p>6</p>
+        </div>
+        <div class="btn">
+            <p class="operator">-</p>
+        </div>
+    </div>
+    <div class="fourth-line line">
+        <div class="btn">
+            <p>1</p>
+        </div>
+        <div class="btn">
+            <p>2</p>
+        </div>
+        <div class="btn">
+            <p>3</p>
+        </div>
+        <div class="btn">
+            <p class="operator">+</p>
+        </div>
+    </div>
+    <div class="fifth-line line">
+        <div class="btn">
+            <p>0</p>
+        </div>
+        <div class="triple">
+            <p id="equals">=</p>
+        </div>
+    </div>
     </footer>
   </body>
 </html>
