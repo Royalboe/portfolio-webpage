@@ -5,42 +5,41 @@
     <title>Login Page</title>
     <meta name="viewport" content="width=device-width, initial-scale">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="login.css">
   </head>
   <body>
     <header>
-      <nav>
-        <div class="website-navigation">
-        <ul>
-          <li><a href="./register.html">Sign Up</a</li>
-          <li><a href="./index.html">About Me</a></li>
-          <li><a href="./calculator.html">Calculator</a></li>
-        </ul>
-        </div>
-      </nav>
+      <section class="web-navigation">
+        <div class="website-navigation"><a href="./index.html">About Me</a></div>
+        <div class="website-navigation"><a href="./register.html">Sign Up</a></div>
+        <div class="website-navigation"><a href="./contact.html">Contact Me</a></div>
+      </section>
     </header>
-    <form>
-      <!-- For Username-->
-      <div>
-        <label for="username"> Username </label>
-        <input id="username" class="username" type="text" name="username">
+    <section class="login-interface">
+      <h1>LOGIN</h1>
+      <div class="screen">
+        <form action="submit">
+          <!-- For Username-->
+          <div class="input-field">
+            <input id="username" class="username" type="text" name="username" placeholder="USERNAME">
+          </div>
+          <br>
+          <!-- For Password -->
+          <div class="input-field">
+            <input type="password" id="password" class="password" name="password" placeholder="PASSWORD">
+          </div>
+          <!-- For Remember Me-->
+          <div class="check-box">
+            <label for="remember-me"> Remember Me </label>
+            <input type="checkbox" id="remember-me" class="remember-me" name="remember-me">
+          </div>
+          <a href="#" class="link">Forgot Your Password?</a>
+          <div class="action">
+            <button>SIGN UP</button>
+            <button>SIGN IN</button>
+          </div>
+        </form>
       </div>
-      <!-- For Password -->
-      <div>
-        <label for="password"> Password </label>
-        <input type="password" id="password" class="password" name="password">
-      </div>
-    </form>
-    <button>Submit</button>
+    </section>
   </body>
-  <footer>
-    <nav>
-        <div class="website-navigation">
-        <ul>
-          <li><a href="./login_page.html">Login</a</li>
-          <li><a href="./index.html">About Me</a></li>
-          <li><a href="./calculator.html">Calculator</a></li>
-        </ul>
-        </div>
-      </nav>
-  </footer>
 </html>
