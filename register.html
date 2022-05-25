@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="text/style.css">
+</head>
+<body>
+  <header>
+      <nav>
+        <div class="website-navigation">
+        <ul>
+          <li><a href="./login_page.html">Login</a</li>
+          <li><a href="./index.html">About Me</a></li>
+          <li><a href="./calculator.html">Calculator</a></li>
+        </ul>
+        </div>
+      </nav>
+    </header>
+
+    <form action="" method="post">
+        <!-- For first name -->
+        <div>
+            <label for="first_name"> First Name </label>
+            <input id="first_name" class="first_name" type="text" name="first_name" required/>
+        </div>
+        <!-- For last name -->
+        <div>
+            <label for="last_name"> Last Name </label>
+            <input id="last_name" class="last_name" type="text" name="last_name" required>
+        </div>
+        <!-- For email -->
+        <div>
+            <label for="email"> Email Address </label>
+            <input id="email" class="email" type="email" name="email" required>
+        </div>
+        <!-- For Phone Number -->
+        <div>
+            <label for="phone_number"> Phone Number </label>
+            <input id="phone_number" class="phone_number" type="tel" name="phone_number" required>
+        </div>
+        <!-- For gender-->
+        <div>
+            <label for="gender"> Gender </label>
+            <select required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="neutral">Neutral</option>
+                <option value="others">Others</option>
+            </select>
+        </div>
+
+      <!-- For country -->
+      <div>
+        <label for="country"> Country </label>
+        <input id="country" class="country" type="text" name="country">
+      </div>
+  <!-- State/Province -->
+      <div>
+        <label for="state"> State/Province </label>
+        <input id="state" class="state" type="text" name="state">
+      </div>
+    <!-- For Username-->
+      <div>
+        <label for="username"> Username </label>
+        <input id="username" class="username" type="text" name="username">
+      </div>
+      <!-- For Password -->
+      <div>
+        <label for="password"> Password </label>
+        <input type="password" id="password" class="password" name="password">
+      </div>
+
+        <!-- For Password -->
+      <div>
+        <label for="confirm_password"> Confirm Password </label>
+        <input type="password" id="confirm_password" class="confirm_password" name="confirm_password">
+      </div>
+
+        <button>Submit</button>
+    </form>
+  <footer>
+    <nav>
+        <div class="website-navigation">
+        <ul>
+          <li><a href="./login_page.html">Login</a</li>
+          <li><a href="./index.html">About Me</a></li>
+          <li><a href="./calculator.html">Calculator</a></li>
+        </ul>
+        </div>
+      </nav>
+  </footer>
+</body>
+</html>
