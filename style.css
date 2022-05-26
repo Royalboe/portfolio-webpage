@@ -78,3 +78,7 @@ section div {
   height: auto;
   width: auto;
 }
+
+#name, #email, #message {
+  background: white;
+}
