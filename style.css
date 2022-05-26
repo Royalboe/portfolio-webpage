@@ -23,12 +23,12 @@ body {font-family: Arial, Helvetica, sans-serif;
   
 
 a:hover {
-  color: blue;
+  color: skyblue;
   text-decoration: none;
 }
 
 p a{
-  color: blue;
+  color: skyblue;
   text-decoration: none
 }
 
